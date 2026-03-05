@@ -1,4 +1,4 @@
-name: ${{ parameters.component_id }}-cicd
+name: ${{ values.app_name }}-cicd
 
 on:
   push:
